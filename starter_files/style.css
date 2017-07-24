@@ -83,10 +83,14 @@ header{
 
 #main_content {
   background-color: #ddffff;
+  padding: 10px 30px 10px 30px;
 }
 
 #sidebar_content div{
   background-color: #ffffdd;
+  padding: 10px 30px 10px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #site_footer {
@@ -99,5 +103,5 @@ header{
 }
 
 footer a {
-  margin: 30px;
+  margin: 10px;
 }

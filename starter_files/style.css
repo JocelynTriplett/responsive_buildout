@@ -142,5 +142,46 @@ footer a {
 
 @media (min-width: 1100px) {
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
 
+#main_nav {
+  width: 60%;
+}
+
+#main_nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#main_content div:first-of-type {
+  width: 60%;
+}
+
+#main_content div:nth-of-type(2) {
+  width: 30%;
+}
+
+#sidebar_content {
+  justify-content: space-around;
+  background-color: #ffffdd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sidebar_content div {
+  width: 30%;
+}
 }

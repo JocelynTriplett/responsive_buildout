@@ -50,7 +50,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -79,4 +79,25 @@ header{
 
 #main_nav a:hover{
     background: #ddddff;
+}
+
+#main_content {
+  background-color: #ddffff;
+}
+
+#sidebar_content div{
+  background-color: #ffffdd;
+}
+
+#site_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(254,214,154);
+  height: 80px;
+  align-items: center;
+}
+
+footer a {
+  margin: 30px;
 }
